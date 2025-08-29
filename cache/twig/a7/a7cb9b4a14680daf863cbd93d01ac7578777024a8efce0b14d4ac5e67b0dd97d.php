@@ -244,6 +244,6 @@ class __TwigTemplate_d8aa0436d79ada465c799b2bdfb7fbf145dbe5696e51e1bd4b61e00e20d
     {% endfor %}
 </script>
 {% endif %}
-", "partials/javascript-config.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav-admin2\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascript-config.html.twig");
+", "partials/javascript-config.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascript-config.html.twig");
     }
 }

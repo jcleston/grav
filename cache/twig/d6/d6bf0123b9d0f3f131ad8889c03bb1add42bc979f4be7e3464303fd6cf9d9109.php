@@ -105,6 +105,6 @@ class __TwigTemplate_7745b4149636e297d5c014a20d44597b00d41df69cbea256e5bea416494
 {% if language_codes.rtl(grav.user.language) %}
     {% do assets.addCss(theme_url~'/css/rtl.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav-admin2\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\stylesheets.html.twig");
     }
 }

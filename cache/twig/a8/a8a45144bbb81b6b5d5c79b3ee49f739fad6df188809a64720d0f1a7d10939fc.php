@@ -114,6 +114,6 @@ class __TwigTemplate_67f951743a2ef424a2d0b11a6931a4e52c7a4427e6d557dbdaed6b4a347
         <div class=\"{{ message.scope }} alert\">{{ message.message|raw }}</div>
     {%- endfor -%}
 </div>
-", "partials/messages.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav-admin2\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\messages.html.twig");
+", "partials/messages.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\messages.html.twig");
     }
 }

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1756491343,
-    'checksum' => 'fbc417899084a8d8d5bd2ebba3113b12',
+    'timestamp' => 1756491742,
+    'checksum' => '21864cfe7c0c8f265b42fa342e0977e2',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -60,6 +60,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
                 'modified' => 1756490039
+            ],
+            'plugins/injectphp' => [
+                'file' => 'user/plugins/injectphp/blueprints.yaml',
+                'modified' => 1550074152
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
@@ -4828,6 +4832,28 @@ return [
                 'name' => 'plugins.form.basic_captcha.type',
                 'validation' => 'strict'
             ],
+            'plugins.injectphp' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.injectphp.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.injectphp.enabled',
+                'validation' => 'strict'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -6161,6 +6187,9 @@ return [
                             'operators' => 'plugins.form.basic_captcha.math.operators'
                         ]
                     ]
+                ],
+                'injectphp' => [
+                    'enabled' => 'plugins.injectphp.enabled'
                 ],
                 'login' => [
                     'enabled' => 'plugins.login.enabled',

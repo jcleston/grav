@@ -95,6 +95,6 @@ class __TwigTemplate_71fd2d443b9e6a6e9176d81ff4af4a75196849bd2b50cfe570643d07312
 
 {% include 'partials/javascripts-extra.html.twig' ignore missing %}
 {% endif %}
-", "partials/javascripts.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav-admin2\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascripts.html.twig");
+", "partials/javascripts.html.twig", "C:\\Users\\cleston.silva\\Desktop\\Dev\\grav2\\grav\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascripts.html.twig");
     }
 }
