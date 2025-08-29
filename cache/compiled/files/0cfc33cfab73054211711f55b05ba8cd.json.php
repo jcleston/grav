@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => 'C:/Users/cleston.silva/Desktop/Dev/grav2/grav/user/data/flex/indexes/pages.json',
-    'modified' => 1756491331,
+    'modified' => 1756493215,
     'size' => 635,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1756491331,
+        'timestamp' => 1756493215,
         'count' => 3,
         'index' => [
             '' => [
@@ -24,13 +24,13 @@ return [
                 'key' => 'home',
                 'storage_key' => '01.home',
                 'template' => 'default',
-                'storage_timestamp' => 1756490875,
+                'storage_timestamp' => 1756493188,
                 'markdown' => [
                     '' => [
-                        'default' => 1756490098
+                        'default' => 1756493188
                     ]
                 ],
-                'checksum' => '50a6f3eda78512eb9a5b8f6cc4ff9048'
+                'checksum' => 'a8ee747d154cb179f4ae13671111e464'
             ],
             '02.typography' => [
                 'key' => 'typography',
