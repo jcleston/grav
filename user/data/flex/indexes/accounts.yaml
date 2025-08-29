@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1756491329
+count: 1
+index:
+  cleston:
+    storage_key: cleston
+    storage_timestamp: 1756491328
+    key: cleston
+    email: janes_cleston@hotmail.com
